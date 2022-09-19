@@ -6,7 +6,8 @@ public class FirstTestCase {
 
     @BeforeAll
     static void setUp(){
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver"); //for Linux
+        //System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe"); //for Windows
     }
 
     @Test
